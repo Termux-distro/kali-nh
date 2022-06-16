@@ -1,4 +1,4 @@
-pkg install wget git ruby openssl -y
+pkg install wget git ruby openssl proot chroot axel figlet tar nano ncurses-utils -y
 
 gem install lolcat
 
