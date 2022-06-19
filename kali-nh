@@ -1,7 +1,3 @@
-pkg install wget git ruby openssl proot chroot axel figlet tar nano ncurses-utils -y
-
-gem install lolcat
-
 #!/data/data/com.termux/files/usr/bin/bash -e
 
 VERSION=2020011601
@@ -206,6 +202,7 @@ cmdline="proot \\
         -0 \\
         -r $CHROOT \\
         -b /dev \\
+        -b /sdcard \\
         -b /proc \\
         -b $CHROOT\$home:/dev/shm \\
         -w \$home \\
